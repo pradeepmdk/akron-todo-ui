@@ -7,7 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment> 
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <Navigation />
